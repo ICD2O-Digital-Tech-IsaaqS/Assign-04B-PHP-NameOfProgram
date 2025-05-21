@@ -1,4 +1,72 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Isaaq Simon
+* Created on: Mar 2025
+* This file contains the CSS for index.php
+*/
+/* Created by: Isaaq Simon
+* Created on: May 2025
 * This file contains the CSS for index.html
 */
+/* ===============================
+   General Body Styles
+   =============================== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: LightBlue;
+    /* HTML color name used here */
+}
+
+/* ===============================
+     Page Header Styling
+     =============================== */
+header h1 {
+    color: rgb(80, 0, 80);
+    /* RGB format used */
+    text-align: center;
+}
+
+/* ===============================
+     Form Sections Styling
+     =============================== */
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select,
+input[type="text"] {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+/* ===============================
+     Description Text
+     =============================== */
+.description {
+    font-size: 16px;
+    color: hsl(240, 50%, 30%);
+    /* HSL color used */
+    margin-top: 10px;
+}
+
+/* ===============================
+     Output Summary Styling
+     =============================== */
+.output p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* ===============================
+     Button Styling Override (if needed)
+     =============================== */
+button {
+    margin-top: 10px;
+}
